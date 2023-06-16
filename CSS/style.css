@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fonte {
+    font-family: "Montserrat", sans-serif;
+    src: url(../fonte/Montserrat-VariableFont_wght.ttf);
+}
+
+.fundo{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.margem{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+
+.fonte{
+    font-size: 21px;
+}
+
+.pos-menu{
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+.pos-porcentagem{
+    position: absolute; 
+    left: 94.9%;
+}
+
+.pos-porcentagem-100{
+    position: absolute; 
+    left: 94%;
+}
+
+.pos-navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.progress{
+    height: 1.3rem;
+    font-size: 1.1rem;
+    border-radius: 30px;
+}
+
+.tamanho-texto{
+    width: 50%;
+}
+
+.foto{
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 8px #0654EA;
+}
+
+.flex-box-fot-tex{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 26%;
+}
+
+.flex-box-hab{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pos-progress{
+    position: relative;
+    top: 8px;
+}
+
+.espacamento{
+    padding-bottom: 26%;
+}
+
+.fundo-dropdown{
+    box-shadow: 4px 3px 5px #0654EA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    text-align: center;
+}
+
+.posCarousel{
+    padding-left: 2%;
+}
+
+.cartoes {
+    display: flex;
+    padding-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    height: 20rem;
+}
+
+.fundoCartoes {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+.compra {
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.compra:hover {
+    color: rgb(0, 107, 0);
+    text-decoration: underline;
+}
