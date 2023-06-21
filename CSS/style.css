@@ -126,12 +126,5 @@
 
 
 .compra {
-    color: green;
-    text-decoration: underline;
     text-align: center;
-}
-
-.compra:hover {
-    color: rgb(0, 107, 0);
-    text-decoration: underline;
 }
