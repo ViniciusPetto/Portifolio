@@ -109,6 +109,7 @@
 
 .posCarousel{
     padding-left: 2%;
+    padding-right: 2%;
 }
 
 .cartoes {
@@ -127,4 +128,14 @@
 
 .compra {
     text-align: center;
+}
+
+.pos-botao-carousel-left{
+    position: relative;
+    right: 85px;
+}
+
+.pos-botao-carousel-right{
+    position: relative;
+    left: 85px;
 }
