@@ -84,6 +84,30 @@
     box-shadow: 4px 3px 5px #0654EA;
 }
 
+.links{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.links:hover{
+    color: #c4c3c3;
+}
+
+.links-cards{
+    text-decoration: none;
+    color: #000000;
+}
+
+.links-cards:hover{
+    color: #3a3a3a;
+}
+
+.rodape {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 
 
 
@@ -124,8 +148,6 @@
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-
-
 .compra {
     text-align: center;
 }
@@ -138,4 +160,48 @@
 .pos-botao-carousel-right{
     position: relative;
     left: 85px;
+}
+
+.botao-card-figma{
+    position: relative;
+    bottom: 10px;
+    left: 110px;
+    font-size: 13px;
+    background-color: #bbbbbb;
+    width: 20%;
+    border-radius: 7px;
+    border: none;
+}
+
+.botao-card-github{
+    position: relative;
+    bottom: 10px;
+    left: 130px;
+    font-size: 13px;
+    background-color: #bbbbbb;
+    width: 20%;
+    border-radius: 7px;
+    border: none;
+}
+
+#sys.botao-card-github{
+    left: 73px;
+    width: 65%;
+}
+
+#port.botao-card-figma{
+    bottom: 22px;
+}
+
+#port.botao-card-github{
+    bottom: 22px;
+}
+
+.index-botao-card{
+    display: flex;
+    z-index: 5000;
+}
+
+#git.botao-card-github{
+    left: 160px;
 }
