@@ -1,3 +1,4 @@
+/*FONTE*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .fonte {
@@ -5,6 +6,7 @@
     src: url(../fonte/Montserrat-VariableFont_wght.ttf);
 }
 
+/*BODY*/
 .fundo{
     background-color: #000000;
     color: #ffffff;
@@ -20,20 +22,12 @@
     font-size: 21px;
 }
 
+
+/*NAVBAR*/
 .pos-menu{
     display: flex;
     position: absolute;
     right: 10px;
-}
-
-.pos-porcentagem{
-    position: absolute; 
-    left: 94.9%;
-}
-
-.pos-porcentagem-100{
-    position: absolute; 
-    left: 94%;
 }
 
 .pos-navbar{
@@ -43,12 +37,12 @@
     right: 0;
 }
 
-.progress{
-    height: 1.3rem;
-    font-size: 1.1rem;
-    border-radius: 30px;
+.fundo-dropdown{
+    box-shadow: 4px 3px 5px #0654EA;
 }
 
+
+/*SOBRE*/
 .tamanho-texto{
     width: 50%;
 }
@@ -66,6 +60,14 @@
     padding-bottom: 26%;
 }
 
+
+/*HABILIDADES*/
+.progress{
+    height: 1.3rem;
+    font-size: 1.1rem;
+    border-radius: 30px;
+}
+
 .flex-box-hab{
     display: flex;
     justify-content: space-between;
@@ -76,56 +78,74 @@
     top: 8px;
 }
 
+.pos-porcentagem{
+    position: absolute; 
+    left: 94.9%;
+}
+
+.pos-porcentagem-100{
+    position: absolute; 
+    left: 94%;
+}
+
+.c{
+    width: 90%;
+}
+
+.cplus{
+    width: 55%;
+}
+
+.csharp{
+    width: 80%;
+}
+
+.java{
+    width: 70%;
+}
+
+.spboot{
+    width: 65%;
+}
+
+.html{
+    width: 90%;
+}
+
+.css{
+    width: 90%;
+}
+
+.js{
+    width: 70%;
+}
+
+.php{
+    width: 50%;
+}
+
+.bootstrap{
+    width: 90%;
+}
+
+.mysql{
+    width: 90%;
+}
+
+.fb{
+    width: 90%;
+}
+
+.inno{
+    width: 50%;
+}
+
+
+
+/*PROJETOS*/
 .espacamento{
     padding-bottom: 26%;
 }
-
-.fundo-dropdown{
-    box-shadow: 4px 3px 5px #0654EA;
-}
-
-.links{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.links:hover{
-    color: #c4c3c3;
-}
-
-.links-cards{
-    text-decoration: none;
-    color: #000000;
-}
-
-.links-cards:hover{
-    color: #3a3a3a;
-}
-
-.rodape {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .container {
     text-align: center;
@@ -141,7 +161,7 @@
     padding-top: 10px;
     border-radius: 5px;
     text-align: center;
-    height: 20rem;
+    height: 25rem;
 }
 
 .fundoCartoes {
@@ -164,37 +184,31 @@
 
 .botao-card-figma{
     position: relative;
-    bottom: 10px;
-    left: 110px;
-    font-size: 13px;
+    bottom: 50px;
+    left: 60px;
+    font-size: 15px;
     background-color: #bbbbbb;
-    width: 20%;
+    width: 30%;
+    height: 150%;
     border-radius: 7px;
     border: none;
 }
 
 .botao-card-github{
     position: relative;
-    bottom: 10px;
-    left: 130px;
-    font-size: 13px;
+    bottom: 50px;
+    left: 90px;
+    font-size: 15px;
     background-color: #bbbbbb;
-    width: 20%;
+    width: 30%;
+    height: 150%;
     border-radius: 7px;
     border: none;
 }
 
 #sys.botao-card-github{
-    left: 73px;
-    width: 65%;
-}
-
-#port.botao-card-figma{
-    bottom: 22px;
-}
-
-#port.botao-card-github{
-    bottom: 22px;
+    left: 47px;
+    width: 75%;
 }
 
 .index-botao-card{
@@ -203,5 +217,188 @@
 }
 
 #git.botao-card-github{
-    left: 160px;
+    left: 145px;
+}
+
+.links-cards{
+    text-decoration: none;
+    color: #000000;
+}
+
+.links-cards:hover{
+    color: #3a3a3a;
+}
+
+
+/*CONTATO*/
+.links{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.links:hover{
+    color: #c4c3c3;
+}
+
+
+/*RODAPÉ*/
+.rodape {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+/*RESPONSIVIDADE (MEDIA QUERIES)*/
+
+/*Telas Pequenas de Smartphones - Galaxy Fold*/
+@media (min-width: 280px) and (max-width: 319px){
+    /*NAVBAR*/
+    .pos-menu{
+        display: block;
+        position: initial;
+    }
+
+    .navbar-nav{
+        width: 50%;
+    }
+
+
+    /*BODY*/
+    .fonte{
+        font-size: 12px;
+    }
+
+
+    /*SOBRE*/
+    .foto{
+        width: 150px;
+        height: 200px;
+        border-radius: 25px;
+        box-shadow: 10px 10px 8px #0654EA;
+    }
+
+    .flex-box-fot-tex{
+        display: block;
+        justify-content: space-between;
+        padding-bottom: 26%;
+    }
+
+    .tamanho-texto{
+        width: 100%;
+    }
+
+
+    /*HABILIDADES*/
+    .progress{
+        height: 0.7rem;
+        font-size: 1.1rem;
+        border-radius: 30px;
+    }
+
+    .pos-porcentagem{
+        left: 82%;
+    }
+
+    .pos-porcentagem-100{
+        left: 80%;
+    }
+
+    .pos-progress{
+        left: 5px;
+    }
+
+    .font-size-porcentagem{
+        font-size: 10px;
+    }
+
+    .c{
+        width: 70%;
+    }
+
+    .cplus{
+        width: 35%;
+    }
+    
+    .csharp{
+        width: 60%;
+    }
+    
+    .java{
+        width: 50%;
+    }
+    
+    .spboot{
+        
+    }
+    
+    .html{
+        width: 70%;
+    }
+    
+    .css{
+        width: 70%;
+    }
+    
+    .js{
+        width: 50%;
+    }
+    
+    .php{
+        width: 30%;
+    }
+    
+    .bootstrap{
+        width: 70%;
+    }
+    
+    .mysql{
+        width: 70%;
+    }
+    
+    .fb{
+        width: 70%;
+    }
+    
+    .inno{
+        width: 30%;
+    }
+}
+
+
+/*Telas de Smatphones mais Comuns - Moto G4*/
+@media (min-width: 320px) and (max-width: 480px){
+
+}
+
+
+/*Telas de Celulares Maiores ou Tablets Pequenos - Surface Duo*/
+@media (min-width: 481px) and (max-width: 767px){
+
+}
+
+
+/*Telas de Tablets - iPad*/
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+
+/*Telas de Tablets - Nest Hub*/
+@media (min-width: 1024px) and (max-width: 1025px){
+
+}
+
+
+/*Telas de Tablets Maiores - Nest Hub Max*/
+@media (min-width: 1026px) and (max-width: 1280px){
+
+}
+
+
+/*Telas de laptops*/
+@media (min-width: 1360px){
+
 }
