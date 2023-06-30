@@ -240,6 +240,15 @@
     color: #c4c3c3;
 }
 
+.tam-text-contato{
+    width: 50%;
+}
+
+.lista-contato{
+    list-style-type: none;
+    padding-right: 100px;
+}
+
 
 /*RODAPÉ*/
 .rodape {
@@ -271,13 +280,20 @@
         font-size: 12px;
     }
 
+    .margem{
+        margin-top: 100px;
+        margin-left: 6%;
+        margin-right: 10%;
+    }
+
 
     /*SOBRE*/
     .foto{
         width: 150px;
         height: 200px;
         border-radius: 25px;
-        box-shadow: 10px 10px 8px #0654EA;
+        margin-top: 10%;
+        margin-left: 20%;
     }
 
     .flex-box-fot-tex{
@@ -307,7 +323,7 @@
     }
 
     .pos-progress{
-        left: 5px;
+        left: 11%;
     }
 
     .font-size-porcentagem{
@@ -319,19 +335,19 @@
     }
 
     .cplus{
-        width: 35%;
+        width: 47%;
     }
     
     .csharp{
-        width: 60%;
+        width: 65%;
     }
     
     .java{
-        width: 50%;
+        width: 58%;
     }
-    
+
     .spboot{
-        
+        width: 53%;
     }
     
     .html{
@@ -343,11 +359,11 @@
     }
     
     .js{
-        width: 50%;
+        width: 58%;
     }
     
     .php{
-        width: 30%;
+        width: 44%;
     }
     
     .bootstrap{
@@ -363,42 +379,700 @@
     }
     
     .inno{
-        width: 30%;
+        width: 44%;
     }
+
+
+    /*PROJETOS*/
+    .pos-botao-carousel-left{
+        right: 10px;
+    }
+    
+    .pos-botao-carousel-right{
+        left: 10px;
+    }
+    .botao-card-figma{
+        bottom: 18px;
+        left: 25px;
+        font-size: 10px;
+    }
+    
+    .botao-card-github{
+        bottom: 18px;
+        left: 55px;
+        font-size: 9.5px;
+    }
+
+    #git.botao-card-github{
+        left: 73px;
+    }
+
+    #sys.botao-card-github{
+        left: 5px;
+        width: 95%;
+    }
+    
+    /*CONTATO*/
+    .tam-text-contato{
+        width: 100%;
+    }
+
+    .lista-contato{
+        list-style-type: none;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 }
 
 
 /*Telas de Smatphones mais Comuns - Moto G4*/
 @media (min-width: 320px) and (max-width: 480px){
-
+        /*NAVBAR*/
+        .pos-menu{
+            display: block;
+            position: initial;
+        }
+    
+        .navbar-nav{
+            width: 50%;
+        }
+    
+    
+        /*BODY*/
+        .fonte{
+            font-size: 15px;
+        }
+    
+        .margem{
+            margin-top: 100px;
+            margin-left: 6%;
+            margin-right: 10%;
+        }
+    
+    
+        /*SOBRE*/
+        .foto{
+            width: 200px;
+            height: 270px;
+            border-radius: 25px;
+            margin-top: 10%;
+            margin-left: 25%;
+        }
+    
+        .flex-box-fot-tex{
+            display: block;
+            justify-content: space-between;
+            padding-bottom: 26%;
+        }
+    
+        .tamanho-texto{
+            width: 100%;
+        }
+    
+    
+        /*HABILIDADES*/
+        .progress{
+            height: 0.9rem;
+            font-size: 1.1rem;
+            border-radius: 30px;
+        }
+    
+        .pos-porcentagem{
+            left: 82%;
+        }
+    
+        .pos-porcentagem-100{
+            left: 80%;
+        }
+    
+        .pos-progress{
+            left: 11%;
+        }
+    
+        .font-size-porcentagem{
+            font-size: 12px;
+        }
+    
+        .c{
+            width: 70%;
+        }
+    
+        .cplus{
+            width: 47%;
+        }
+        
+        .csharp{
+            width: 65%;
+        }
+        
+        .java{
+            width: 58%;
+        }
+    
+        .spboot{
+            width: 55%;
+        }
+        
+        .html{
+            width: 70%;
+        }
+        
+        .css{
+            width: 70%;
+        }
+        
+        .js{
+            width: 58%;
+        }
+        
+        .php{
+            width: 44%;
+        }
+        
+        .bootstrap{
+            width: 70%;
+        }
+        
+        .mysql{
+            width: 70%;
+        }
+        
+        .fb{
+            width: 70%;
+        }
+        
+        .inno{
+            width: 44%;
+        }
+    
+    
+        /*PROJETOS*/
+        .pos-botao-carousel-left{
+            right: 10px;
+        }
+        
+        .pos-botao-carousel-right{
+            left: 10px;
+        }
+        .botao-card-figma{
+            left: 45px;
+            font-size: 13px;
+        }
+        
+        .botao-card-github{  
+            left: 75px;
+            font-size: 13px;
+        }
+    
+        #git.botao-card-github{
+            left: 112px;
+        }
+    
+        #sys.botao-card-github{
+            left: 8px;
+            width: 95%;
+        }
+        
+        /*CONTATO*/
+        .tam-text-contato{
+            width: 100%;
+        }
+    
+        .lista-contato{
+            list-style-type: none;
+            padding-top: 30px;
+            padding-left: 0;
+            padding-right: 0;
+        }
 }
 
 
 /*Telas de Celulares Maiores ou Tablets Pequenos - Surface Duo*/
 @media (min-width: 481px) and (max-width: 767px){
+     /*NAVBAR*/
+     .pos-menu{
+        display: block;
+        position: initial;
+    }
 
+    .navbar-nav{
+        width: 50%;
+    }
+
+
+    /*BODY*/
+    .fonte{
+        font-size: 15px;
+    }
+
+    .margem{
+        margin-top: 100px;
+        margin-left: 6%;
+        margin-right: 10%;
+    }
+
+
+    /*SOBRE*/
+    .foto{
+        width: 200px;
+        height: 270px;
+        border-radius: 25px;
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+
+    .flex-box-fot-tex{
+        display: block;
+        justify-content: space-between;
+        padding-bottom: 26%;
+    }
+
+    .tamanho-texto{
+        width: 100%;
+    }
+
+
+    /*HABILIDADES*/
+    .progress{
+        height: 1rem;
+        font-size: 1.1rem;
+        border-radius: 30px;
+    }
+
+    .pos-porcentagem{
+        left: 82%;
+    }
+
+    .pos-porcentagem-100{
+        left: 80%;
+    }
+
+    .pos-progress{
+        left: 11%;
+    }
+
+    .font-size-porcentagem{
+        font-size: 12px;
+    }
+
+    .c{
+        width: 70%;
+    }
+
+    .cplus{
+        width: 47%;
+    }
+    
+    .csharp{
+        width: 65%;
+    }
+    
+    .java{
+        width: 58%;
+    }
+
+    .spboot{
+        width: 55%;
+    }
+    
+    .html{
+        width: 70%;
+    }
+    
+    .css{
+        width: 70%;
+    }
+    
+    .js{
+        width: 58%;
+    }
+    
+    .php{
+        width: 44%;
+    }
+    
+    .bootstrap{
+        width: 70%;
+    }
+    
+    .mysql{
+        width: 70%;
+    }
+    
+    .fb{
+        width: 70%;
+    }
+    
+    .inno{
+        width: 44%;
+    }
+
+
+    /*PROJETOS*/
+    .pos-botao-carousel-left{
+        right: 10px;
+    }
+    
+    .pos-botao-carousel-right{
+        left: 10px;
+    }
+    .botao-card-figma{
+        left: 65px;
+        font-size: 13px;
+    }
+    
+    .botao-card-github{  
+        left: 95px;
+        font-size: 13px;
+    }
+
+    #git.botao-card-github{
+        left: 150px;
+    }
+
+    #sys.botao-card-github{
+        left: 70px;
+        width: 65%;
+    }
+    
+    /*CONTATO*/
+    .tam-text-contato{
+        width: 100%;
+    }
+
+    .lista-contato{
+        list-style-type: none;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 
 /*Telas de Tablets - iPad*/
 @media (min-width: 768px) and (max-width: 1023px){
+    /*BODY*/
+    .fonte{
+        font-size: 15px;
+    }
 
+    /*NAVBAR*/
+    .pos-menu{
+        display: block;
+        position: initial;
+    }
+
+    .navbar-nav{
+        width: 20%;
+    }
+
+    /*SOBRE*/
+    .tamanho-texto{
+        width: 45%;
+    }
+    
+    .foto{
+        width: 250px;
+        height: 350px;
+        border-radius: 40px;
+    }
+
+    /*HABILIDADES*/
+    .progress{
+        height: 1rem;
+        font-size: 1.1rem;
+        border-radius: 30px;
+    }
+
+    .pos-porcentagem{
+        left: 82%;
+    }
+
+    .pos-porcentagem-100{
+        left: 80%;
+    }
+
+    .pos-progress{
+        left: 11%;
+    }
+
+    .font-size-porcentagem{
+        font-size: 12px;
+    }
+
+    .c{
+        width: 70%;
+    }
+
+    .cplus{
+        width: 47%;
+    }
+    
+    .csharp{
+        width: 65%;
+    }
+    
+    .java{
+        width: 58%;
+    }
+
+    .spboot{
+        width: 55%;
+    }
+    
+    .html{
+        width: 70%;
+    }
+    
+    .css{
+        width: 70%;
+    }
+    
+    .js{
+        width: 58%;
+    }
+    
+    .php{
+        width: 44%;
+    }
+    
+    .bootstrap{
+        width: 70%;
+    }
+    
+    .mysql{
+        width: 70%;
+    }
+    
+    .fb{
+        width: 70%;
+    }
+    
+    .inno{
+        width: 44%;
+    }
+
+    /*PROJETOS*/
+    .cartoes {
+        height: 40rem;
+    }
+
+    .pos-botao-carousel-left{
+        right: 30px;
+    }
+    
+    .pos-botao-carousel-right{
+        left: 30px;
+    }
+    .botao-card-figma{
+        width: 42%;
+        left: 7px;
+        font-size: 10px;
+    }
+    
+    .botao-card-github{  
+        width: 42%;
+        left: 20px;
+        font-size: 10px;
+    }
+
+    #git.botao-card-github{
+        left: 47px;
+    }
+
+    #sys.botao-card-github{
+        left: 16px;
+        width: 80%;
+    }
+
+    /*CONTATO*/
+    .lista-contato{ 
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 
 /*Telas de Tablets - Nest Hub*/
 @media (min-width: 1024px) and (max-width: 1025px){
+    /*BODY*/
+    .fonte{
+        font-size: 18px;
+    }
 
+    /*HABILIDADES*/
+    .progress{
+        height: 1.1rem;
+    }
+
+    .font-size-porcentagem{
+        font-size: 13px;
+    }
+
+    /*PROJETOS*/
+    .cartoes {
+        height: 27rem;
+    }
+
+    .pos-botao-carousel-left{
+        right: 41px;
+    }
+    
+    .pos-botao-carousel-right{
+        left: 41px;
+    }
+
+    .botao-card-figma{
+        width: 42%;
+        left: 7px;
+        bottom: 25px;
+        font-size: 13px;
+    }
+    
+    .botao-card-github{  
+        width: 42%;
+        left: 25px;
+        bottom: 25px;
+        font-size: 13px;
+    }
+
+    #git.botao-card-github{
+        left: 56px;
+    }
+
+    #sys.botao-card-github{
+        left: 10px;
+        bottom: 35px;
+        width: 90%;
+    }
+
+    /*CONTATO*/
+    .lista-contato{ 
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 
 /*Telas de Tablets Maiores - Nest Hub Max*/
 @media (min-width: 1026px) and (max-width: 1280px){
+    /*BODY*/
+    .fonte{
+        font-size: 18px;
+    }
 
+    /*HABILIDADES*/
+    .progress{
+        height: 1.1rem;
+    }
+
+    .font-size-porcentagem{
+        font-size: 13px;
+    }
+
+    /*PROJETOS*/
+    .cartoes {
+        height: 27rem;
+    }
+
+    .pos-botao-carousel-left{
+        right: 57px;
+    }
+    
+    .pos-botao-carousel-right{
+        left: 57px;
+    }
+
+    .botao-card-figma{
+        width: 42%;
+        left: 12px;
+        bottom: 25px;
+        font-size: 15px;
+    }
+    
+    .botao-card-github{  
+        width: 42%;
+        left: 30px;
+        bottom: 25px;
+        font-size: 15px;
+    }
+
+    #git.botao-card-github{
+        left: 80px;
+    }
+
+    #sys.botao-card-github{
+        left: 13px;
+        bottom: 35px;
+        width: 90%;
+    }
+
+    /*CONTATO*/
+    .lista-contato{ 
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 
 /*Telas de laptops*/
-@media (min-width: 1360px){
+@media (min-width: 1281px) and (max-width: 1400px){
+    /*BODY*/
+    .fonte{
+        font-size: 18px;
+    }
 
+    /*HABILIDADES*/
+    .progress{
+        height: 1.1rem;
+    }
+
+    .font-size-porcentagem{
+        font-size: 13px;
+    }
+
+    /*PROJETOS*/
+    .cartoes {
+        height: 27rem;
+    }
+
+    .pos-botao-carousel-left{
+        right: 59px;
+    }
+    
+    .pos-botao-carousel-right{
+        left: 59px;
+    }
+
+    .botao-card-figma{
+        width: 42%;
+        left: 12px;
+        bottom: 25px;
+        font-size: 15px;
+    }
+    
+    .botao-card-github{  
+        width: 42%;
+        left: 30px;
+        bottom: 25px;
+        font-size: 15px;
+    }
+
+    #git.botao-card-github{
+        left: 80px;
+    }
+
+    #sys.botao-card-github{
+        left: 13px;
+        bottom: 35px;
+        width: 90%;
+    }
+
+    /*CONTATO*/
+    .lista-contato{ 
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
