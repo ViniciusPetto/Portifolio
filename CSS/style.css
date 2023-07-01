@@ -1076,3 +1076,32 @@
         padding-right: 0;
     }
 }
+
+@media (min-width: 1401px) and (max-width: 1800px){
+    /*PROJETOS*/
+    .pos-botao-carousel-left{
+        right: 67px;
+    }
+    
+    .pos-botao-carousel-right{
+        left: 67px;
+    }
+
+    #git.botao-card-github{
+        left: 107px;
+    }
+
+    #sys.botao-card-github{
+        left: 8px;
+        bottom: 45px;
+        width: 95%;
+    }
+
+    .botao-card-figma{
+        left: 50px;
+    }
+    
+    .botao-card-github{  
+        left: 80px;
+    }
+}
